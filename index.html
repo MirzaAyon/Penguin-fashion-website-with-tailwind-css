@@ -26,7 +26,7 @@
 
 <body>
     <header class="bg-penguin pb-32 pt-12  ">
-        <section class="container mx-auto sm:flex items-center justify-around">
+        <section class="container mx-auto sm:flex items-center justify-around  ">
             <div class="space-y-4">
                 <h1 class="text-2xl sm:text-5xl uppercase font-bold">
                     <!-- 640 ba tar beshir jonno text 5xl r er nicher gular jonno text 2xl-->
@@ -53,13 +53,13 @@
         </section>
     </header>
     <!-- main part -->
-    <main class="container mx-auto">
+    <main class="container mx-auto bg-[#E5E5E5]">
         <!-- women jacket-->
-        <section>
+        <section class="pb-24 pt-12">
             <h2 class="text-5xl font-bold">Woman Jacket</h2>
-            <div class="grid grid-cols-3 gap-7 ">
+            <div class="grid  gap-7 md:grid-cols-2 lg:grid-cols-3 ">
                 <!-- jacket 1 -->
-                <div class="p-4 shadow-lg rounded-xl">
+                <div class="p-4 shadow-lg rounded-xl ">
 
                     <div class="p-5 bg-slate-100 rounded-xl">
                         <img src="images/jacket-1.png" alt="">
@@ -121,11 +121,11 @@
             </div>
         </section>
         <!-- men jacket-->
-        <section class="pt-24">
+        <section class="pb-32">
             <h2 class="text-5xl font-bold">Men Jacket</h2>
-            <div class="grid grid-cols-3 gap-7 ">
+            <div class="grid  gap-7 md:grid-cols-2 lg:grid-cols-3 ">
                 <!-- jacket 1 -->
-                <div class="p-4 shadow-lg rounded-xl">
+                <div class=" p-4 shadow-lg rounded-xl">
 
                     <div class="p-5 bg-slate-100 rounded-xl">
                         <img src="images/jacket-4.png" alt="">
@@ -186,7 +186,53 @@
                 </div>
             </div>
         </section>
+        <!--Our benefits section-->
+        <!-- <section>
+            <div class="grid grid-cols-2 gap-7">
+                <div class="h-32 bg-slate-500">1</div>
+                <div class=" bg-slate-500 row-span-3">2</div>
+                <div class="h-32 bg-slate-500">3</div>
+                <div class="h-32 bg-slate-500">4</div>
+            </div>
+        </section> -->
+        <!-- this is how I made and used the grid system-->
+        <section class="">
+            <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-7">
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/house.png" alt="">
+                    <div class="text-2xl">
+                        <h4>Find the perfect fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="  row-span-3">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="rounded-lg flex bg-white p-6 ">
+                    <img class="w-20 h-20" src="images/box.png" alt="">
+                    <div class="text-2xl">
+                        <h4>Free Exchanges</h4>
+                        <p>One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/question.png" alt="">
+                    <div class="text-2xl">
+                        <h4>Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
+    <footer class="pt-20 container mx-auto bg-[#E5E5E5]">
+        <p class="text-center"> &copy; All rights received Mirza Ayon on 2022</p>
+    </footer>
 
 </body>
 
